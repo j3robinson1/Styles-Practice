@@ -1,13 +1,18 @@
-.explore, .gist, .blog, .help, .username, .profilepic, .octocat {
+.explore, .gist, .blog, .help, .username, .add, .profilepic, .logout, .notifications, .settings, .octocat {
 	position: absolute;
 	top: 20;
 	text-align: center;
 	font-size: 15
 }
+.explore:hover, .gist:hover, .blog:hover, .help:hover, .username:hover, .add:hover, .logout:hover, .notifications:hover, .settings:hover, .searchbutton:hover {
+	color: blue;
+	cursor: pointer;
+}
 .border3, .border4, .border5, .border6 {
-	border-bottom: 3px solid #ddd;
-	margin-left: 240;
+	border-bottom: 2px solid #ddd;
+	margin-left: 200;
 	margin-top: 25;
+	width: 540;
 }
 .search {
 	width: 220px;
@@ -17,24 +22,44 @@
 	margin-left: 36;
 }
 .explore {
-	margin-right: 150;
 	margin-left: 270;
 }
 .gist {
-	margin-right: 100;
 	margin-left: 330;
 }
 .blog {
-	margin-right: 150;
 	margin-left: 365;
 }
 .help {
-	margin-right: 0;
 	margin-left: 405;
 }
 .username {
-	margin-right: 450;
 	margin-left: 565;
+}r: pointer;
+}
+.add {
+	margin-left: 650;
+	font-size: 20;
+	top: 17.5;
+}
+img.logout {
+	height: 20px;
+	width: 20px;
+	margin-left: 710;
+	margin-top: -2.5;
+}
+img.notifications {
+	height: 20px;
+	width: 20px;
+	margin-left: 665;
+	margin-top: -2.5;
+}
+img.settings {
+	display: block;
+	height: 20px;
+	width: 20px;
+	margin-left: 685;
+	margin-top: -2.5;
 }
 img.profilePic {
 	height: 20px;
@@ -42,14 +67,14 @@ img.profilePic {
 	display: block;
 	top: 17.5;
 	margin-right: 0;
-	margin-left: 500;
+	margin-left: 540;
 }
 img.octocat {
 	width: 35px;
 	height: 35px;
 	display: block;
 	top: 10.8;
-	left: 10;
+	left: 40;
 }
 .topbar {
 	width: 780px;
@@ -66,26 +91,30 @@ img.profilePic2 {
 	top: 65;
 	text-align: center;
 }
+.contributions, .repositories, .publicActivity:hover {
+	cursor: pointer;
+}
 .contributions {
 	left: 250;
-	border-bottom: 3px solid #ddd;
-	border-right: 3px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	border-right: 2px solid #ddd;
 	padding-bottom: 5px;
 	padding-right: 5px;
 
 }
 .repositories {
 	left: 344;
-	border-top: 3px solid #ddd;
-	border-left: 3px solid #ddd;
-	border-right: 3px solid #ddd;
+	border-top: 2px solid #ddd;
+	border-left: 2px solid #ddd;
+	border-right: 2px solid #ddd;
 	padding-left: 6px;
 	padding-right: 6px;
+	padding-top: 2px
 }
 .publicActivity {
 	left: 440;
-	border-bottom: 3px solid #ddd;
-	border-left: 3px solid #ddd;
+	border-bottom: 2px solid #ddd;
+	border-left: 2px solid #ddd;
 	padding-bottom: 5px;
 	padding-left: 5px;
 }
@@ -93,19 +122,19 @@ img.profilePic2 {
 	width: 310;
 	margin-top: 38;
 	margin-left: 470px;
-	border-bottom: 3px solid #ddd;
+	border-bottom: 2px solid #ddd;
 }
 .findRepository {
 	width: 200;
 	height: 30;
 	margin-top: 10px;
-	margin-left: 240px;
+	margin-left: 200px;
 }
 .searchbutton {
 	height: 30
 }
 .all, .public, .private, .sources, .forks, .mirrors {
-	font-size: 13px;
+	font-size: 12px;
 }
 .new {
 	height: 30;
@@ -113,19 +142,23 @@ img.profilePic2 {
 	color: white;
 }
 .border2 {
-	border-bottom: 3px solid #ddd;
+	border-bottom: 2px solid #ddd;
 	margin-left: 240;
 	width: 540;
-	margin-left: 240;
+	margin-left: 200;
 	margin-top: 10;
 }
 .day2, .day2d, .day2u, .day3, .day3d, .day3u, .day4, .day4d, .day4u, .day5, .day5d, .day5u {
-	margin-left: 240;
+	margin-left: 200;
 	margin-top: 10;
 }
 .day2, .day3, .day4, .day5 {
 	font-size: 25;
 	margin-top: 30;
+	color: blue;
+}
+.day2:hover, .day3:hover, .day4:hover, .day5:hover {
+	cursor: pointer;
 }
 .myName {
 	font-size: 25;
