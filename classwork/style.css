@@ -1,0 +1,42 @@
+.topleft,
+.topright,
+.bottomleft,
+.bottomright,
+.bottommiddle {
+	position: absolute;
+}
+
+/*to overwrite you have to call the specific class and redo command*/
+.topleft {
+	top: 15px;
+	left: 15px;
+}
+.topright {
+	top: 15px;
+	right: 15px;
+}
+.bottomleft {
+	left: 15px;
+	bottom: 15px;
+}
+.bottomright {
+	bottom: 15px;
+	right: 15px;
+}
+.bottommiddle {
+	left: 0px;
+	right: 0px;
+	bottom: 15px;
+	text-align: center;
+}
+.centerpiece {
+	position: 
+}
+/*element.style {
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	text-align: center;
+	margin-top: 260;
+}*/

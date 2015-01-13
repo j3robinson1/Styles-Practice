@@ -1,0 +1,139 @@
+.explore, .gist, .blog, .help, .username, .profilepic, .octocat {
+	position: absolute;
+	top: 20;
+	text-align: center;
+	font-size: 15
+}
+.border3, .border4, .border5, .border6 {
+	border-bottom: 3px solid #ddd;
+	margin-left: 240;
+	margin-top: 25;
+}
+.search {
+	width: 220px;
+	height: 10px;
+	position: absolute;
+	top: 17.5;
+	margin-left: 36;
+}
+.explore {
+	margin-right: 150;
+	margin-left: 270;
+}
+.gist {
+	margin-right: 100;
+	margin-left: 330;
+}
+.blog {
+	margin-right: 150;
+	margin-left: 365;
+}
+.help {
+	margin-right: 0;
+	margin-left: 405;
+}
+.username {
+	margin-right: 450;
+	margin-left: 565;
+}
+img.profilePic {
+	height: 20px;
+	width: 20px;
+	display: block;
+	top: 17.5;
+	margin-right: 0;
+	margin-left: 500;
+}
+img.octocat {
+	width: 35px;
+	height: 35px;
+	display: block;
+	top: 10.8;
+	left: 10;
+}
+.topbar {
+	width: 780px;
+	height: 40px;
+	background-color: #E6E6E6;
+}
+img.profilePic2 {
+	height: 175px;
+	width: 175px;
+
+}
+.contributions, .repositories, .publicActivity, .profilePic2 {
+	position: absolute;
+	top: 65;
+	text-align: center;
+}
+.contributions {
+	left: 250;
+	border-bottom: 3px solid #ddd;
+	border-right: 3px solid #ddd;
+	padding-bottom: 5px;
+	padding-right: 5px;
+
+}
+.repositories {
+	left: 344;
+	border-top: 3px solid #ddd;
+	border-left: 3px solid #ddd;
+	border-right: 3px solid #ddd;
+	padding-left: 6px;
+	padding-right: 6px;
+}
+.publicActivity {
+	left: 440;
+	border-bottom: 3px solid #ddd;
+	border-left: 3px solid #ddd;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.border {
+	width: 310;
+	margin-top: 38;
+	margin-left: 470px;
+	border-bottom: 3px solid #ddd;
+}
+.findRepository {
+	width: 200;
+	height: 30;
+	margin-top: 10px;
+	margin-left: 240px;
+}
+.searchbutton {
+	height: 30
+}
+.all, .public, .private, .sources, .forks, .mirrors {
+	font-size: 13px;
+}
+.new {
+	height: 30;
+	background-color: green;
+	color: white;
+}
+.border2 {
+	border-bottom: 3px solid #ddd;
+	margin-left: 240;
+	width: 540;
+	margin-left: 240;
+	margin-top: 10;
+}
+.day2, .day2d, .day2u, .day3, .day3d, .day3u, .day4, .day4d, .day4u, .day5, .day5d, .day5u {
+	margin-left: 240;
+	margin-top: 10;
+}
+.day2, .day3, .day4, .day5 {
+	font-size: 25;
+	margin-top: 30;
+}
+.myName {
+	font-size: 25;
+	margin-left: 51;
+}
+.username2 {
+	margin-left: 51;
+	font-size: 20;
+}
+
+
