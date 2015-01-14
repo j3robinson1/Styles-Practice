@@ -10,16 +10,16 @@
 }
 .border3, .border4, .border5, .border6 {
 	border-bottom: 2px solid #ddd;
-	margin-left: 200;
+	margin-left: 240;
 	margin-top: 25;
 	width: 540;
 }
 .search {
 	width: 220px;
-	height: 10px;
+	font-size: 22;
 	position: absolute;
-	top: 17.5;
-	margin-left: 36;
+	top: 17;
+	margin-left: 38;
 }
 .explore {
 	margin-left: 270;
@@ -35,30 +35,32 @@
 }
 .username {
 	margin-left: 565;
-}r: pointer;
+	cursor: pointer;
 }
 .add {
-	margin-left: 650;
+	margin-left: 645;
 	font-size: 20;
 	top: 17.5;
 }
 img.logout {
+	display: block;
 	height: 20px;
 	width: 20px;
-	margin-left: 710;
+	margin-left: 685;
 	margin-top: -2.5;
 }
 img.notifications {
+	display: block;
 	height: 20px;
 	width: 20px;
-	margin-left: 665;
+	margin-left: 625;
 	margin-top: -2.5;
 }
 img.settings {
 	display: block;
 	height: 20px;
 	width: 20px;
-	margin-left: 685;
+	margin-left: 655;
 	margin-top: -2.5;
 }
 img.profilePic {
@@ -67,14 +69,20 @@ img.profilePic {
 	display: block;
 	top: 17.5;
 	margin-right: 0;
-	margin-left: 540;
+	margin-left: 500;
+}
+img.profilePic:hover {
+	cursor: pointer;
 }
 img.octocat {
 	width: 35px;
 	height: 35px;
 	display: block;
 	top: 10.8;
-	left: 40;
+	left: 10;
+}
+img.octocat:hover {
+	cursor: pointer;
 }
 .topbar {
 	width: 780px;
@@ -82,16 +90,21 @@ img.octocat {
 	background-color: #E6E6E6;
 }
 img.profilePic2 {
-	height: 175px;
-	width: 175px;
-
+	position: relative;
+	height: 200px;
+	width: 200px;
+	right: 20px;
+	margin-top: -50px;
+}
+img.profilePic2:hover {
+	cursor: pointer;
 }
 .contributions, .repositories, .publicActivity, .profilePic2 {
 	position: absolute;
 	top: 65;
 	text-align: center;
 }
-.contributions, .repositories, .publicActivity:hover {
+.contributions:hover, .repositories:hover, .publicActivity:hover {
 	cursor: pointer;
 }
 .contributions {
@@ -118,10 +131,24 @@ img.profilePic2 {
 	padding-bottom: 5px;
 	padding-left: 5px;
 }
+.editProfile {
+	position: relative;
+	left: 700px;
+	bottom: 165px;
+}
+.editProfile:hover {
+	cursor: pointer;
+	background-color: #ddd;
+}
+.all, .border, .findRepository, .searchbutton, .public, .private, .sources, .forks, .mirrors, .new {
+	position: relative;
+	left: 40px;
+	bottom: 200px;
+}
 .border {
 	width: 310;
 	margin-top: 38;
-	margin-left: 470px;
+	margin-left: 430px;
 	border-bottom: 2px solid #ddd;
 }
 .findRepository {
@@ -133,20 +160,38 @@ img.profilePic2 {
 .searchbutton {
 	height: 30
 }
-.all, .public, .private, .sources, .forks, .mirrors {
+.searchbutton:hover {
+	background-color: #ddd;
+}
+ .public, .private, .sources, .forks, .mirrors {
 	font-size: 12px;
+	color: blue;
+	margin-left: 5px; 
+}
+.all {
+	font-size: 12px;
+}
+.all:hover {
+	border-bottom: 1px solid black;
+	cursor: pointer;
+}
+.public:hover, .private:hover, .sources:hover, .forks:hover, .mirrors:hover {
+	border-bottom: 1px solid blue;
+	cursor: pointer;
 }
 .new {
 	height: 30;
 	background-color: green;
 	color: white;
 }
+.new:hover {
+	cursor: pointer;
+}
 .border2 {
 	border-bottom: 2px solid #ddd;
-	margin-left: 240;
 	width: 540;
-	margin-left: 200;
-	margin-top: 10;
+	margin-left: 240;
+	margin-top: -190;
 }
 .day2, .day2d, .day2u, .day3, .day3d, .day3u, .day4, .day4d, .day4u, .day5, .day5d, .day5u {
 	margin-left: 200;
@@ -159,14 +204,104 @@ img.profilePic2 {
 }
 .day2:hover, .day3:hover, .day4:hover, .day5:hover {
 	cursor: pointer;
+	border-bottom: 2px solid blue;
+	width: 55;
 }
 .myName {
-	font-size: 25;
-	margin-left: 51;
+	display: block;
+	position: relative;
+	font-size: 33px;
+	bottom: 400px;
+	right: 20px;
+	top: 280px;
 }
 .username2 {
-	margin-left: 51;
-	font-size: 20;
+	display: block;
+	position: relative;
+	font-size: 25px;
+	bottom: 400px;
+	right: 23.5px;
+	top: 310px;
 }
+.border7 {
+	display: block;
+	position: relative;
+	bottom: 390px;
+	border-bottom: 2px solid #ddd;
+	width: 220;
+	right: 22px;
+	top: 350px;
+}
+.joined {
+	display: block;
+	position: relative;
+	bottom: 375px;
+	margin-left: 30px;
+	top: 375px;
+}
+img.clock {
+	position: relative;
+	width: 20px;
+	height: 20px;
+	bottom: 310px;
+	left: 20px
+}
+.myName, .username2, .border7, .joined {
+	position: absolute;
+	left: 25px;
+}
+.day2, .day2d, .day2u, .day3, .day3d, .day3u, .day4, .day4d, .day4u, .day5, .day5d, .day5u {
+margin-left: 250px;
 
-
+}
+.border8 {
+	display: block;
+	position: relative;
+	border-bottom: 2px solid #ddd;
+	width: 220;
+	left: 20px;
+	bottom: 300px;
+}
+.numfollower, .numstarred, .numfollowing {
+	position: relative;
+	color: blue;
+	font-size: 30px; 
+	bottom: 280;
+	margin-left: 30px; 
+	left: 40px                                                                                                                                                                                                                                                            
+}
+.follower, .starred, .following {
+	position: relative;
+	color: blue;
+	font-size: 12px;
+	bottom: 260px;
+	margin-right: 5px;
+	right: 90
+}
+.follower:hover, .starred:hover, .following:hover, .numfollower:hover, .numstarred:hover, .numfollowing:hover {
+	cursor: pointer;
+}
+.border9 {
+	display: block;
+	position: relative;
+	border-bottom: 2px solid #ddd;
+	width: 220;
+	bottom: 255px;
+	left: 20px;
+}
+.organization {
+	position: relative;
+	font-size: 20px;
+	bottom: 230px;
+	left: 20px;
+}
+.orgpic {
+	position: relative;
+	height: 40px;
+	width: 40px;
+	bottom: 210px;
+	left: 20px;
+}
+.orgpic:hover {
+	cursor: pointer;
+}
