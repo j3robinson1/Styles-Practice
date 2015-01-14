@@ -94,7 +94,7 @@ img.profilePic2 {
 	height: 200px;
 	width: 200px;
 	right: 20px;
-	margin-top: -50px;
+	margin-top: -60px;
 }
 img.profilePic2:hover {
 	cursor: pointer;
@@ -134,7 +134,8 @@ img.profilePic2:hover {
 .editProfile {
 	position: relative;
 	left: 700px;
-	bottom: 165px;
+	height: 22px;
+	bottom: 160px;
 }
 .editProfile:hover {
 	cursor: pointer;
@@ -143,11 +144,11 @@ img.profilePic2:hover {
 .all, .border, .findRepository, .searchbutton, .public, .private, .sources, .forks, .mirrors, .new {
 	position: relative;
 	left: 40px;
-	bottom: 200px;
+	bottom: 204px;
 }
 .border {
 	width: 310;
-	margin-top: 38;
+	margin-top: 48;
 	margin-left: 430px;
 	border-bottom: 2px solid #ddd;
 }
@@ -237,13 +238,13 @@ img.profilePic2:hover {
 	position: relative;
 	bottom: 375px;
 	margin-left: 30px;
-	top: 375px;
+	top: 368px;
 }
 img.clock {
 	position: relative;
 	width: 20px;
 	height: 20px;
-	bottom: 310px;
+	bottom: 312px;
 	left: 20px
 }
 .myName, .username2, .border7, .joined {
